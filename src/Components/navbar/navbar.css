@@ -1,0 +1,31 @@
+.navbar_container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.left {
+    margin-left: 50px;
+    flex: 1;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+
+.right {
+    margin-right: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
